@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d95890e-ede3-40f7-9deb-50d82c5c1a37" name="Changes" comment="add initial code">
+    <list default="true" id="3d95890e-ede3-40f7-9deb-50d82c5c1a37" name="Changes" comment="add code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hangman/hangman.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hangman/hangman.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hangman/hangman.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hangman/hangman.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,7 @@
   <component name="ProjectId" id="2HUblJqSfzSSudEpL6alNzmzCwH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -38,6 +37,9 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs.jest.jest_package": "C:/Users/pfriedrich/workspace/UniHD_2022/unit-test-jest/node_modules/jest",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "ts.external.directory.path": "C:\\Users\\pfriedrich\\workspace\\UniHD_2022\\unit-test-jest\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -47,7 +49,20 @@
       <recent name="C:\Users\pfriedrich\workspace\UniHD_2022\unit-test-jest\src\hangman\guess.ts" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.guess a letter.should return false for a wrong letter">
+  <component name="RunManager" selected="Jest.guess a letter">
+    <configuration name="guess a letter" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/hangman/hangman.spec.ts" />
+      <test-names>
+        <test-name value="guess a letter" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="guess a letter.should return false for a wrong letter" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -59,6 +74,20 @@
       <test-names>
         <test-name value="guess a letter" />
         <test-name value="should return false for a wrong letter" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="guess a letter.should throw an error when letter contains multiple characters" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/hangman/hangman.spec.ts" />
+      <test-names>
+        <test-name value="guess a letter" />
+        <test-name value="should throw an error when letter contains multiple characters" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -82,22 +111,13 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.guess a letter" />
+        <item itemvalue="Jest.guess a letter.should throw an error when letter contains multiple characters" />
         <item itemvalue="Jest.guess a letter.should return false for a wrong letter" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.buidl" />
-        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668342760155</updated>
-      <workItem from="1668342761344" duration="3726000" />
+      <workItem from="1668342761344" duration="5029000" />
     </task>
     <task id="LOCAL-00001" summary="npm init">
       <created>1668342933965</created>
@@ -167,7 +187,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668346457990</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="initial commit">
+      <created>1668346560374</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668346560374</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add code">
+      <created>1668347266871</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668347266871</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +215,11 @@
     <MESSAGE value="add first implementation" />
     <MESSAGE value="add to gitignore" />
     <MESSAGE value="add initial code" />
-    <option name="LAST_COMMIT_MESSAGE" value="add initial code" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="add code" />
+    <option name="LAST_COMMIT_MESSAGE" value="add code" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/unit_test_jest$guess_a_letter.info" NAME="guess a letter Coverage Results" MODIFIED="1668347101695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
