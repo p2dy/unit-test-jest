@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d95890e-ede3-40f7-9deb-50d82c5c1a37" name="Changes" comment="add code">
+    <list default="true" id="3d95890e-ede3-40f7-9deb-50d82c5c1a37" name="Changes" comment="update gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hangman/hangman.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hangman/hangman.spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668342760155</updated>
-      <workItem from="1668342761344" duration="5029000" />
+      <workItem from="1668342761344" duration="5196000" />
     </task>
     <task id="LOCAL-00001" summary="npm init">
       <created>1668342933965</created>
@@ -201,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668347266871</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update gitignore">
+      <created>1668348838897</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668348838897</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +225,8 @@
     <MESSAGE value="add initial code" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="add code" />
-    <option name="LAST_COMMIT_MESSAGE" value="add code" />
+    <MESSAGE value="update gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gitignore" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/unit_test_jest$guess_a_letter.info" NAME="guess a letter Coverage Results" MODIFIED="1668347101695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
