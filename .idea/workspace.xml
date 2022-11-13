@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d95890e-ede3-40f7-9deb-50d82c5c1a37" name="Changes" comment="npm init">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="3d95890e-ede3-40f7-9deb-50d82c5c1a37" name="Changes" comment="init tsconfig">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +14,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HUblJqSfzSSudEpL6alNzmzCwH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -60,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668342760155</updated>
-      <workItem from="1668342761344" duration="345000" />
+      <workItem from="1668342761344" duration="379000" />
     </task>
     <task id="LOCAL-00001" summary="npm init">
       <created>1668342933965</created>
@@ -76,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668342938398</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init tsconfig">
+      <created>1668343127271</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668343127271</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +93,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="npm init" />
-    <option name="LAST_COMMIT_MESSAGE" value="npm init" />
+    <MESSAGE value="init tsconfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="init tsconfig" />
   </component>
 </project>
