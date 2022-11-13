@@ -18,6 +18,6 @@ describe("guess a letter", () => {
     });
 
     it('should throw an error when letter contains multiple characters', () => {
-        // todo
+        // expect().toThrowError('foo');
     });
 });
