@@ -1,15 +1,15 @@
 export class Hangman {
-    private hiddenWord: string;
+    private word: string;
 
-    public constructor(hiddenWord: string) {
-        this.hiddenWord = hiddenWord;
+    public constructor(word: string) {
+        this.word = word;
     }
 
     public guess(letter: string): boolean {
         if (letter.length != 1) {
             throw new Error('A guess should contain only a single letter!')
         }
-        return this.hiddenWord.includes(letter);
+        return this.word.includes(letter);
     }
 
 }
