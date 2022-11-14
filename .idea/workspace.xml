@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d95890e-ede3-40f7-9deb-50d82c5c1a37" name="Changes" comment="update gitignore">
+    <list default="true" id="3d95890e-ede3-40f7-9deb-50d82c5c1a37" name="Changes" comment="add a Guess interface">
+      <change afterPath="$PROJECT_DIR$/src/stopwatch/stopwatch.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stopwatch/stopwatch.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hangman/hangman.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hangman/hangman.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,31 +27,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;C:/Users/pfriedrich/workspace/UniHD_2022/unit-test-jest/node_modules/jest&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\pfriedrich\\workspace\\UniHD_2022\\unit-test-jest\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "js.last.introduce.type": "CONST",
+    "last_opened_file_path": "C:/Users/pfriedrich/workspace/UniHD_2022/unit-test-jest/src/stopwatch",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "C:/Users/pfriedrich/workspace/UniHD_2022/unit-test-jest/node_modules/jest",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "ts.external.directory.path": "C:\\Users\\pfriedrich\\workspace\\UniHD_2022\\unit-test-jest\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pfriedrich\workspace\UniHD_2022\unit-test-jest\src\stopwatch" />
+    </key>
     <key name="es6.move.members.recent.items">
       <recent name="C:\Users\pfriedrich\workspace\UniHD_2022\unit-test-jest\src\hangman\guess.ts" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.guess a letter">
+  <component name="RunManager" selected="Jest.stopwatch.should start and stop">
     <configuration name="guess a letter" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -92,14 +97,18 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="buidl" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="buidl" />
-      </scripts>
+    <configuration name="stopwatch.should start and stop" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
       <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/stopwatch/stopwatch.spec.ts" />
+      <test-names>
+        <test-name value="stopwatch" />
+        <test-name value="should start and stop" />
+      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -114,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.stopwatch.should start and stop" />
         <item itemvalue="Jest.guess a letter" />
         <item itemvalue="Jest.guess a letter.should throw an error when letter contains multiple characters" />
         <item itemvalue="Jest.guess a letter.should return false for a wrong letter" />
         <item itemvalue="npm.build" />
-        <item itemvalue="npm.buidl" />
       </list>
     </recent_temporary>
   </component>
