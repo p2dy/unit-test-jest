@@ -10,6 +10,6 @@ export class Stopwatch {
 
     public stop() : number | undefined {
         const stopTime = this.now();
-        return this.startTime ? this.startTime - stopTime : undefined;
+        return this.startTime ? stopTime - this.startTime : undefined;
     }
 }
