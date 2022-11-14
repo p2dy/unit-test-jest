@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d95890e-ede3-40f7-9deb-50d82c5c1a37" name="Changes" comment="add stopwatch test">
+    <list default="true" id="3d95890e-ede3-40f7-9deb-50d82c5c1a37" name="Changes" comment="add stopwatch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stopwatch/stopwatch.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/stopwatch/stopwatch.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stopwatch/stopwatch.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/stopwatch/stopwatch.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hangman/hangman.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hangman/hangman.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
       <recent name="C:\Users\pfriedrich\workspace\UniHD_2022\unit-test-jest\src\hangman\guess.ts" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.stopwatch.should start and stop">
+  <component name="RunManager" selected="Jest.guess a letter.should return false for a wrong letter">
     <configuration name="guess a letter" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -123,10 +122,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.guess a letter.should return false for a wrong letter" />
         <item itemvalue="Jest.stopwatch.should start and stop" />
         <item itemvalue="Jest.guess a letter" />
         <item itemvalue="Jest.guess a letter.should throw an error when letter contains multiple characters" />
-        <item itemvalue="Jest.guess a letter.should return false for a wrong letter" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
@@ -225,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668419018523</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add stopwatch">
+      <created>1668420630999</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668420630999</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +260,8 @@
     <MESSAGE value="add code" />
     <MESSAGE value="update gitignore" />
     <MESSAGE value="add stopwatch test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add stopwatch test" />
+    <MESSAGE value="add stopwatch" />
+    <option name="LAST_COMMIT_MESSAGE" value="add stopwatch" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/unit_test_jest$guess_a_letter.info" NAME="guess a letter Coverage Results" MODIFIED="1668347101695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
