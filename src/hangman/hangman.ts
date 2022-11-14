@@ -13,3 +13,8 @@ export class Hangman {
     }
 
 }
+
+export interface Guess {
+    isCorrect: boolean,
+    resultWord: string
+}
